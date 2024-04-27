@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('/resources/franklin-gothic-webfont/Franklin\ Gothic\ Condensed.woff') format('woff');
+
+}
+
+* {
+    font-family: 'Archivo Black', monospace;
+    background-color: #202020;
+    margin: 0px;
+    color: white;
+    box-sizing: border-box;
+}
+
+header #title {
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 20px 40px;
+    letter-spacing: 2px;
+}
+
+main {
+    margin: 40px;
+}
+
+.heading {
+    font-size: 45px;
+    margin: 10px 0px;
+}
+
+.color {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.color {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.font-section {
+    margin: 25px 0px;
+    font-size: 30px;
+}
+
+.font-section h3,
+.font-section p {
+    margin: 5px 0px;
+    color: #E5E7E9;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+#yellow,
+#yellow p {
+    background-color: #f9df6d;
+}
+
+#green,
+#green p {
+    background-color: #a0c35a;
+}
+
+#blue,
+#blue p {
+    background-color: #b0c3ef;
+}
+
+#purple,
+#purple p {
+    background-color: #bb80c5;
+}
+
+#gray,
+#gray p {
+    background-color: #ebebe3;
+}
+
+#dark-gray,
+#dark-gray p {
+    background-color: #5a594e;
+}
+
+#roboto h3,
+#roboto p {
+    font-family: 'Roboto';
+}
+
+#archivo-black h3,
+#archivo-black p {
+    font-family: 'Archivo Black';
+}
+
+#franklin-gothic h3,
+#franklin-gothic p {
+    font-family: 'Franklin Gothic';
+}
+
+#regular-button {
+    background-color: #ebebe3;
+    color: #000000;
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+    margin: 15px 0px;
+    padding: 0px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#regular-button:active {
+    background-color: #5a594e;
+}
+
+#pill-button {
+    color: #ffffff;
+    padding: 20px;
+    width: fit-content;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+#pill-button:active {
+    opacity: 0.7;
+}
